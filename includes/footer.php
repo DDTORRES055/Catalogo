@@ -10,8 +10,8 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="github" href="https://github.com/DDTORRES055/Catalogo"><i class="fa fa-github"></i></a></li>
-              <li><a class="linkedin" href="https://www.linkedin.com/in/daniel-d%C3%ADaz-torres-44972b189/"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="github" href="https://github.com/DDTORRES055/Catalogo" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/daniel-d%C3%ADaz-torres-44972b189/" target="_blank"><i class="fa fa-linkedin"></i></a></li>   
             </ul>
           </div>
         </div>
