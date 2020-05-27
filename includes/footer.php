@@ -6,14 +6,12 @@
         <hr>
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Created By: Diaz Torres Daniel 2019601904 2NM40
-            </p>
+            <p class="copyright-text">Created By: Diaz Torres Daniel - 2019601904 - 3NM40</p>
           </div>
-
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="github" href="#"><i class="fa fa-github"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="github" href="https://github.com/DDTORRES055/Catalogo"><i class="fa fa-github"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/daniel-d%C3%ADaz-torres-44972b189/"><i class="fa fa-linkedin"></i></a></li>   
             </ul>
           </div>
         </div>
@@ -24,7 +22,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript">
         const llenarModalEdit = async (id) => {
-            const response = await fetch(`http://localhost/PHP/Catalogo/database/search.php?id=${id}`);
+            const response = await fetch(`/database/search.php?id=${id}`);
             const datos = await response.json();
 
             const edit_title = document.getElementById('edit-title');
@@ -37,7 +35,7 @@
         };
 
         const llenarModalDelete = async (id) => {
-            const response = await fetch(`http://localhost/PHP/Catalogo/database/search.php?id=${id}`);
+            const response = await fetch(`/database/search.php?id=${id}`);
             const datos = await response.json();
 
             const delete_title = document.getElementById('delete-title');
