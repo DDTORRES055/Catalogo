@@ -22,7 +22,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript">
         const llenarModalEdit = async (id) => {
-            const response = await fetch(`/database/search.php?id=${id}`);
+            const response = await fetch(`./database/search.php?id=${id}`);
             const datos = await response.json();
 
             const edit_title = document.getElementById('edit-title');
@@ -35,7 +35,7 @@
         };
 
         const llenarModalDelete = async (id) => {
-            const response = await fetch(`/database/search.php?id=${id}`);
+            const response = await fetch(`./database/search.php?id=${id}`);
             const datos = await response.json();
 
             const delete_title = document.getElementById('delete-title');
